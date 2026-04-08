@@ -1,0 +1,29 @@
+{
+  "catalog": [
+    {
+      "id": "hat_01",
+      "name": "Classic Red Cap",
+      "price": 50,
+      "type": "accessory",
+      "attachmentPoint": "head",
+      "modelUrl": "./assets/models/red_cap.glb",
+      "imageUrl": "./assets/images/red_cap.png"
+    },
+    {
+      "id": "sword_01",
+      "name": "Knight's Blade",
+      "price": 150,
+      "type": "tool",
+      "attachmentPoint": "right_hand",
+      "modelUrl": "./assets/models/sword.glb",
+      "imageUrl": "./assets/images/sword.png"
+    },
+    {
+      "id": "shirt_01",
+      "name": "Blue Hoodie",
+      "price": 25,
+      "type": "clothing",
+      "textureUrl": "./assets/textures/blue_hoodie.jpg"
+    }
+  ]
+}
