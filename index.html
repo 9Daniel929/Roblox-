@@ -1,0 +1,38 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Polyblox</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase SDKs -->
+  <script src="https://gstatic.com"></script>
+  <script src="https://gstatic.com"></script>
+  <script src="https://gstatic.com"></script>
+</head>
+<body>
+  <!-- AUTH UI -->
+  <div id="auth-screen">
+    <h2>Join the Metaverse</h2>
+    <input type="email" id="email" placeholder="Email">
+    <input type="password" id="pass" placeholder="Password">
+    <button onclick="signUp()">Sign Up</button>
+    <button onclick="login()">Login</button>
+  </div>
+
+  <!-- MAIN PLATFORM -->
+  <div id="main-ui" style="display:none;">
+    <nav>
+      <span>Robux: <b id="robux-val">0</b></span>
+      <button onclick="showMarketplace()">Marketplace</button>
+      <button onclick="showGames()">Games</button>
+      <button onclick="logout()">Logout</button>
+    </nav>
+    <div id="content"></div>
+  </div>
+
+  <!-- GAME CANVAS -->
+  <canvas id="game-canvas" style="display:none;"></canvas>
+  <script src="https://cloudflare.com"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
